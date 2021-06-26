@@ -3,6 +3,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
  
+  html {
+    scroll-behavior: smooth;
+  }
+
   .hero-image {
     background-image: url("https://wallpaperaccess.com/full/2502689.jpg");
     background-color: #cccccc;
@@ -11,7 +15,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     border: whitesmoke solid 3px;
   }
  
@@ -23,15 +27,20 @@ body {
     transform: translate(-50%, -50%);
     color: white;
     font-family: 'Staatliches', cursive;
+    font-size: 55px;
   }
  
   #work {
       background-color: rgba(111, 117, 170, 0.808);
       border: whitesmoke solid 3px;
+      font-family: 'Staatliches', cursive;
+      
   }
  
   #about {
       margin-bottom: 250px;
+      font-family: 'Staatliches', cursive;
+      font-size: 20px;
   }
  
   .work-box {
@@ -71,3 +80,15 @@ body {
       opacity: 0.9; 
   }
   
+  #aboutMePic {
+      margin-top: 130px;
+  }
+
+  .w-ctegory {
+      color: white;
+  }
+
+  #myTabContent {
+      margin: 10px;
+     
+  }
