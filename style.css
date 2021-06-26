@@ -11,7 +11,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-bottom: 400px;
+    margin-bottom: 200px;
     border: whitesmoke solid 3px;
   }
  
@@ -31,7 +31,7 @@ body {
   }
  
   #about {
-      margin-bottom: 400px;
+      margin-bottom: 250px;
   }
  
   .work-box {
@@ -69,4 +69,5 @@ body {
   } 
   .fa:hover { 
       opacity: 0.9; 
-  } 
+  }
+  
