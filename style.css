@@ -121,3 +121,7 @@ body {
   .repo-link {
       font-size: 21px;
   }
+
+  #contact {
+      margin-bottom: 200px;
+  }
