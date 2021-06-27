@@ -96,15 +96,28 @@ body {
       font-size: 21px;
   }
 
+  a, a:hover {
+      text-decoration: none;
+      color: black;
+  }
+
+  a, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
   .w-date {
       font-size: 21px;
   }
 
   #myTabContent {
       margin: 10px;
-     
   }
 
   .title-a {
       margin: 25px;
+  }
+
+  .repo-link {
+      font-size: 21px;
   }
