@@ -126,3 +126,7 @@ body {
       margin-bottom: 200px;
       font-family: 'Staatliches', cursive;
   }
+
+  .email-link:hover {
+      color: rgba(111, 117, 170, 0.808);
+  }
