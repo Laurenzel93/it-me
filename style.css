@@ -34,6 +34,8 @@ body {
       background-color: rgba(111, 117, 170, 0.808);
       border: whitesmoke solid 3px;
       font-family: 'Staatliches', cursive;
+      padding-bottom: 50px;
+      margin-bottom: 200px;
       
   }
  
@@ -45,9 +47,14 @@ body {
  
   .work-box {
     border: whitesmoke solid 3px;
-    margin: 5px;
+    margin: 7px;
     align-items: center;
     justify-content: center;
+    transition: .2s;
+  }
+
+  .work-box:hover {
+    transform: scale(1.1); 
   }
  
   .title-box {
@@ -86,9 +93,18 @@ body {
 
   .w-ctegory {
       color: white;
+      font-size: 21px;
+  }
+
+  .w-date {
+      font-size: 21px;
   }
 
   #myTabContent {
       margin: 10px;
      
+  }
+
+  .title-a {
+      margin: 25px;
   }
