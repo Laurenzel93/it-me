@@ -230,7 +230,7 @@
                         <h2 class="w-title text-center">Weather Dashboard</h2>
                         <div class="work-img ">
                             <a href="https://laurenzel93.github.io/weather-dashboard/" target="blank"><img src="assets/weather-dashboard.png"
-                                    class="img-fluid"></a>
+                                    class="img-fluid" height="350px" width="350px"></a>
                         </div>
                         <div class="work-content">
                             <div class="row">
@@ -316,7 +316,7 @@
 
                     <div class="email">
                         <h4>Email:</h4>
-                        <h3><a class="email-link" href="mailto: LwenzelWebDev@gmail.com">LWenzelWebDev@gmail.com</a></h3>
+                        <h3><a class="email-link" href="mailto: LWenzelWebDev@gmail.com">LWenzelWebDev@gmail.com</a></h3>
                     </div>
 
                 </div>
@@ -325,7 +325,7 @@
 
             <div class="col-lg-8 mt-5 mt-lg-0">
 
-                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <form id='contact-form' action="send" method="POST" role="form" enctype="multipart/form-data">
                     <div class="row">
                         <div class="col-md-6 form-group">
                             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
@@ -345,7 +345,9 @@
                             required=""></textarea>
                     </div>
                     <h4>Thank you for your message. I look forward to speaking with you as soon as I can!</h4>
-                    <div class="text-center"><button type="submit" class="btn btn-secondary">Send Message</button></div>
+                    <div class="text-center">
+                    <button type="submit" value ='submit' class="btn btn-secondary">Send Message</button>
+                </div>
                 </form>
 
             </div>

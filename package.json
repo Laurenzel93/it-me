@@ -1,0 +1,25 @@
+{
+  "name": "it-me",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laurenzel93/it-me.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laurenzel93/it-me/issues"
+  },
+  "homepage": "https://github.com/Laurenzel93/it-me#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "multiparty": "^4.2.2",
+    "nodemailer": "^6.7.0"
+  }
+}
