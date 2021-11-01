@@ -7,7 +7,7 @@ let mail = new FormData(form);
 sendMail(mail);
 
 const sendMail = (mail) => {
-    fetch("link", {
+    fetch("http://laurenwenzel.com/send", {
         method: 'post',
         body: mail, 
     }).then((response) => {
